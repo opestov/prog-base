@@ -1,0 +1,51 @@
+html{font-family: Verdana, sans-serif, "Segoe Script", Arial;}
+body{font-size:14px;line-height:19px;color:#303030;background-color:gray;}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal; color:#303030;text-rendering:optimizelegibility;}
+h1{font-size:1.9em;margin-top:1em;margin-bottom:0.7em;}
+h2{font-size:1.5em;margin-top:1em;margin-bottom:0.7em;}
+
+body {
+  counter-reset: problem;
+}
+
+th, td {
+  border: 1px solid;
+}
+th {
+  font-weight: normal;
+  text-align: center;
+}
+td {
+  font-family: monospace;
+}
+h1:before {
+  content: "Задача " counter(problem) ". ";
+  counter-increment: problem;
+  color:#ABCDEF;
+  font-weight: normal;
+  font-style: normal;
+  text-shadow: 1px 1px 1px black;
+}
+p {
+  margin: 0;
+  padding: 0.8em 0 0 0;
+  text-indent: 1em;
+}                         
+.level1 p:first-of-type { padding-top: 0px;}
+.level2 p:first-of-type { padding-top: 0px;}
+
+.level1 {
+  padding: 0px 1.5em 1.5em 1.5em;
+  margin: 15px;
+  background-color: white;
+  border: 1px solid black;
+}
+q {
+  quotes: "«" "»" "“" "”";
+} 
+q:before {
+  content: open-quote;
+}
+q:after {
+  content: close-quote;
+}

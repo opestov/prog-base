@@ -1,0 +1,32 @@
+html{font-family: Arial;}
+body{color:#303030;padding: 10px;}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal; color:#303030;text-rendering:optimizelegibility;}
+
+h1 {
+  font-size: 2em;
+  margin: 30px 0 20px 0;
+}
+h2 {
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid;
+  padding: 5px;
+}
+th {
+  font-weight: normal;
+  text-align: center;
+}
+p {
+  text-indent: 1em;
+}                         
+
+q {
+  quotes: "«" "»" "“" "”";
+} 
+q:before {
+  content: open-quote;
+}
+q:after {
+  content: close-quote;
+}

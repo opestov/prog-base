@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper]{article}
+%\documentclass[pdf,unicode]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb,amsmath}
+\usepackage{cmap} % позволяет делать поиск по русским буквам
+\usepackage{graphicx}
+\usepackage{ctable}
+\usepackage{float} % provides the H option for float placement
+\usepackage{indentfirst} % indent first line
+\usepackage[compact]{titlesec} % modify titles
+\usepackage{enumitem} % itemize spacing
+
+\makeatletter
+\DeclareRobustCommand{\contestname}{Задачи по теме <<Условный оператор if>>}
+
+\newlength{\thelinewidth}
+\hoffset=-25mm
+\voffset=-37.5mm
+\textheight=255mm
+\textwidth=175mm
+
+\setcounter{secnumdepth}{1}
+\titleformat{\section}{\normalfont\Large\bfseries}{Задача \thesection{}.}{0.5em}{}
+\setlength{\intextsep}{0.3\baselineskip}
+
+
+\setlist{nosep}
+\setlist[1]{labelindent=\parindent} % < Usually a good idea
+\setlist[itemize]{leftmargin=*} 
+\setlist{nolistsep,labelindent=\parindent}
+\setupctable{left, doinside=\ttfamily}
+
+\def\lastpage@putlabel{\addtocounter{page}{-1}%
+   \immediate\write\@auxout{\string\newlabel{LastPage}{{}{\thepage}}}%
+   \addtocounter{page}{1}}
+\AtEndDocument{\clearpage\lastpage@putlabel}%
+
+\renewcommand{\@oddhead}{%
+\parbox{\textwidth}{%
+\sffamily%
+\begin{center}%
+\protect\contestname%
+\\[2pt]%
+\hrule%
+\end{center}%
+}%
+}
+\renewcommand{\@oddfoot}{%
+\parbox{\textwidth}{%
+\hrule%
+\vspace{6pt}%
+\sffamily%
+{{\hfil}Страница\ \thepage\ из\ \pageref{LastPage}\hfil}%
+}%
+}
+\makeatother
+
+\headheight=2cm
+\headsep=6mm
+\hfuzz=0.5pt
+\sloppy
+\let\stdsection\section
+\renewcommand\section{\end{samepage}\begin{samepage}\stdsection}
+
+\begin{document}
+
+\begin{samepage}
+\input{content.tex}
+\end{samepage}
+
+\end{document}
