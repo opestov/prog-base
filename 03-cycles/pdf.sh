@@ -13,11 +13,13 @@ pandoc \
   09/statement/rus.md \
   10/statement/rus.md \
   11/statement/rus.md \
-  12/statement/rus.md \
-  13/statement/rus.md \
-  14/statement/rus.md
+  12/statement/rus.md
 
-perl -i -0pe 's/\\ctable\[(.*)\]{(.*)}$/\\ctable[pos=H, botcap]{|l|l|}/mg' content.tex
+perl -i -0pe 's/\\ctable\[(.*)\]{(.*)}$/\\ctable[pos=H, botcap]{\2}/mg' content.tex
+perl -i -0pe 's/\\ctable\[pos=H, botcap\]{([^|])}$/\\ctable[pos=H, botcap]{|\1|}/mg' content.tex
+perl -i -0pe 's/\\ctable\[pos=H, botcap\]{([^|])([^|])}$/\\ctable[pos=H, botcap]{|\1|\2|}/mg' content.tex
+perl -i -0pe 's/\\ctable\[pos=H, botcap\]{([^|])([^|])([^|])}$/\\ctable[pos=H, botcap]{|\1|\2|\3|}/mg' content.tex
+perl -i -0pe 's/\\ctable\[pos=H, botcap\]{([^|])([^|])([^|])([^|])}$/\\ctable[pos=H, botcap]{|\1|\2|\3|\4|}/mg' content.tex
 perl -i -0pe 's/\\\\\\noalign{\\medskip}/\\ML/mg' content.tex
 perl -i -0pe 's/\\FL/\\hline/mg' content.tex
 perl -i -0pe 's/\\ML/\\\\\\hline/mg' content.tex

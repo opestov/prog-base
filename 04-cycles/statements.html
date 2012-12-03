@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style type="text/css">
+    q { quotes: "“" "”" "‘" "’"; }
+  </style>
+  <link rel="stylesheet" href="../media/css/normalize.css">
+  <link rel="stylesheet" href="../media/css/style-statements.css">
+  <script src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<section class="level1" id="список-квадратов">
+<h1>Список квадратов</h1>
+<p>По данному числу \(n\) выведите все квадраты натуральных чисел, не превосходящие \(n\).</p>
+<section class="level2" id="формат-входных-данных">
+<h2>Формат входных данных</h2>
+<p>Дано целое число \(n\) (\(1 \leqslant n \leqslant 10^6\)).</p>
+</section>
+<section class="level2" id="формат-результата">
+<h2>Формат результата</h2>
+<p>Выведите соответствующие числа в порядке возрастания по одному на строке.</p>
+</section>
+<section class="level2" id="примеры">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">1<br>4<br>9<br>16</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="список-степеней-двойки">
+<h1>Список степеней двойки</h1>
+<p>По данному числу \(n\) выведите все целые степени двойки, не превосходящие \(n\).</p>
+<section class="level2" id="формат-входных-данных-1">
+<h2>Формат входных данных</h2>
+<p>Дано целое число \(n\) (\(1 \leqslant n \leqslant 10^6\)).</p>
+</section>
+<section class="level2" id="формат-результата-1">
+<h2>Формат результата</h2>
+<p>Выведите соответствующие числа в порядке возрастания по одному на строке.</p>
+</section>
+<section class="level2" id="примеры-1">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">1<br>2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">1<br>2<br>4<br>8</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="двоичный-логарифм">
+<h1>Двоичный логарифм</h1>
+<p>По данному натуральному числу \(n\) выведите такое наименьшее целое число \(k\), что \(2^k \geqslant n\).</p>
+<section class="level2" id="формат-входных-данных-2">
+<h2>Формат входных данных</h2>
+<p>Дано целое число \(n\) (\(1 \leqslant n \leqslant 10^6\)).</p>
+</section>
+<section class="level2" id="формат-результата-2">
+<h2>Формат результата</h2>
+<p>Выведите ответ на задачу.</p>
+</section>
+<section class="level2" id="примеры-2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">4</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="сумма-цифр">
+<h1>Сумма цифр</h1>
+<p>Дано целое число. Найдите сумму его цифр.</p>
+<section class="level2" id="формат-входных-данных-3">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит целое число \(n\) (\(0 \leqslant n \leqslant 10^9\)).</p>
+</section>
+<section class="level2" id="формат-результата-3">
+<h2>Формат результата</h2>
+<p>Выведите сумму цифр числа \(n\).</p>
+</section>
+<section class="level2" id="примеры-3">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">231</td>
+<td style="text-align: left;">6</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="минимальная-и-максимальная-цифры">
+<h1>Минимальная и максимальная цифры</h1>
+<p>Дано целое число. Выведите его минимальную и максимальную цифру.</p>
+<section class="level2" id="формат-входных-данных-4">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит целое число \(n\) (\(1 \leqslant n \leqslant 10^9\)).</p>
+</section>
+<section class="level2" id="формат-результата-4">
+<h2>Формат результата</h2>
+<p>Выведите минимальную и максимальную цифру.</p>
+</section>
+<section class="level2" id="примеры-4">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1 1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">203001</td>
+<td style="text-align: left;">0 3</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="сумма-последовательности---1">
+<h1>Сумма последовательности - 1</h1>
+<p>Программа получает на вход последовательность целых чисел и должна определить их сумму. Последовательность завершается числом 0, при считывании которого программа завершает работу и выводит результат. Числа, следующие за числом 0, считывать и обрабатывать не нужно.</p>
+<section class="level2" id="формат-входных-данных-5">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит последовательность натуральных чисел. Каждое число по модулю не превосходит 1000.</p>
+</section>
+<section class="level2" id="формат-результата-5">
+<h2>Формат результата</h2>
+<p>Выведите сумму чисел до первого нуля.</p>
+</section>
+<section class="level2" id="примеры-5">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">0 1</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1 0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1 5 0 3</td>
+<td style="text-align: left;">6</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="сумма-последовательности---2">
+<h1>Сумма последовательности - 2</h1>
+<p>Программа получает на вход последовательность целых чисел и должна определить их сумму. Последовательность завершается двумя подряд идущими нулями.</p>
+<section class="level2" id="формат-входных-данных-6">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит последовательность натуральных чисел. Каждое число по модулю не превосходит 1000.</p>
+</section>
+<section class="level2" id="формат-результата-6">
+<h2>Формат результата</h2>
+<p>Выведите сумму чисел до двух подряд идущих нулей.</p>
+</section>
+<section class="level2" id="примеры-6">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">0 1 0 0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1 2 0 3 0 0</td>
+<td style="text-align: left;">6</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="сокращение-дроби">
+<h1>Сокращение дроби</h1>
+<p>Сократите дробь \(n/m\). Используйте алгоритм Евклида.</p>
+<section class="level2" id="формат-входных-данных-7">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит два целых числа \(n\) и \(m\) (\(1 \leqslant n, m \leqslant 10^9\)).</p>
+</section>
+<section class="level2" id="формат-результата-7">
+<h2>Формат результата</h2>
+<p>Выведите дробь после сокращения.</p>
+</section>
+<section class="level2" id="примеры-7">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">12 18</td>
+<td style="text-align: left;">2 3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">15 20</td>
+<td style="text-align: left;">3 4</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="разница-дат---2">
+<h1>Разница дат - 2</h1>
+<p>Напишите программу которая вычисляет сколько дней пройдёт (или уже прошло) с одной даты до другой.</p>
+<p><em>Примечание.</em> После того как программа заработает, попробуйте ввести дату вашего рождения и дату сегодня.</p>
+<section class="level2" id="формат-входных-данных-8">
+<h2>Формат входных данных</h2>
+<p>Даны две даты в формате: день, месяц и год. Года в обеих датах не превышают 9999 и гарантируется, что первая строго раньше второй.</p>
+</section>
+<section class="level2" id="формат-результата-8">
+<h2>Формат результата</h2>
+<p>Выведите разницу между датами.</p>
+</section>
+<section class="level2" id="примеры-8">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">31 12 2012<br>1 1 2013</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1 1 2001<br>1 12 2012</td>
+<td style="text-align: left;">4358</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="последовательность-без-пробелов">
+<h1>Последовательность без пробелов</h1>
+<p>Рассмотрим последовательность натуральных чисел, записанную без пробелов: <code>1234567891011121314151617181920212223...</code> Требуется найти \(k\)-ю цифру данной последовательности.</p>
+<section class="level2" id="формат-входных-данных-9">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит целое число \(k\) (\(1 \leqslant k \leqslant 10^6\)).</p>
+</section>
+<section class="level2" id="формат-результата-9">
+<h2>Формат результата</h2>
+<p>Выведите \(k\)-ю цифру последовательности.</p>
+</section>
+<section class="level2" id="примеры-9">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">3</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="угадай-число">
+<h1>Угадай число (*)</h1>
+<p>Напишите компьютерную реализацию игры <q>Угадай число</q>.</p>
+<p>Правила:</p>
+<ul>
+<li>Компьютер загадывает случайно число от 1 до 100.</li>
+<li>Игроку необходимо отгадать это число. Он может вводить свои числа.</li>
+<li>На каждую попытку компьютер отвечает <q>больше</q>, если загаданное число больше, чем ввёл игрок и ответчает <q>меньше</q>, если загаданное число меньше, чем ввёл игрок. Если игрок угадал, то необходимо вывести количество попыток.</li>
+</ul>
+<section class="level2" id="пример">
+<h2>Пример</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Загадано</th>
+<th style="text-align: left;">Попытка</th>
+<th style="text-align: left;">Ответ программы</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">39</td>
+<td style="text-align: left;">75</td>
+<td style="text-align: left;">меньше</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">39</td>
+<td style="text-align: left;">40</td>
+<td style="text-align: left;">меньше</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">39</td>
+<td style="text-align: left;">20</td>
+<td style="text-align: left;">больше</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">39</td>
+<td style="text-align: left;">39</td>
+<td style="text-align: left;">Ура! Вы отгадали за 4 попытки!</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="level1" id="быки-и-коровы">
+<h1>Быки и коровы (*)</h1>
+<p>Напишите компьютерную реализацию игры <q>Быки и коровы</q>.</p>
+<p>Правила:</p>
+<ul>
+<li>Компьютер загадывает четырёхзначное число. Все цифры <strong>дожны быть различны</strong>.</li>
+<li>Игроку необходимо отгадать это число. Он может вводить свои числа в которых также все цифры должны быть различны.</li>
+<li>На каждую попытку компьютер отвечает сколько цифр угадано. Если пользователь угадал цифру и её позицию, то такое совпадение называется <q>бык</q>. Если пользователь угадал цифру, но не угадал позицию, то такое совпадение называется <q>корова</q>. Программа после каждой попытки отвечает сколько <q>быков</q> и <q>коров</q>.</li>
+</ul>
+<section class="level2" id="пример-1">
+<h2>Пример</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Загадано</th>
+<th style="text-align: left;">Попытка</th>
+<th style="text-align: left;">Ответ программы</th>
+<th style="text-align: left;">Примечание</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">0239</td>
+<td style="text-align: left;">6875</td>
+<td style="text-align: left;">быков: 0, коров: 0</td>
+<td style="text-align: left;">ни одна цифра не угадана</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">0239</td>
+<td style="text-align: left;">5329</td>
+<td style="text-align: left;">быков: 1, коров: 2</td>
+<td style="text-align: left;">9 на месте, 2 и 3 на других местах</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">0239</td>
+<td style="text-align: left;">9320</td>
+<td style="text-align: left;">быков: 0, коров: 4</td>
+<td style="text-align: left;">цифры угаданы, но позиции не верные</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">0239</td>
+<td style="text-align: left;">0239</td>
+<td style="text-align: left;">Вы отгадали за 4 попытки!</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</body>
+</html>
