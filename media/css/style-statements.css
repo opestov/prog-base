@@ -7,7 +7,7 @@ h2{font-size:1.5em;margin-top:1em;margin-bottom:0.7em;}
 body {
   counter-reset: problem;
 }
-
+                
 th, td {
   border: 1px solid;
 }
@@ -15,7 +15,8 @@ th {
   font-weight: normal;
   text-align: center;
 }
-td {
+
+.level2:nth-of-type(3) td {
   font-family: monospace;
 }
 h1:before {
@@ -31,6 +32,11 @@ p {
   padding: 0.8em 0 0 0;
   text-indent: 1em;
 }                         
+table p {
+  text-indent: 0;
+  padding: 0;
+  margin: 0;
+}
 .level1 p:first-of-type { padding-top: 0px;}
 .level2 p:first-of-type { padding-top: 0px;}
 
