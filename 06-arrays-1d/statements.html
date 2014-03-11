@@ -3,30 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <style type="text/css">
-    q { quotes: "“" "”" "‘" "’"; }
-  </style>
   <link rel="stylesheet" href="../media/css/normalize.css">
   <link rel="stylesheet" href="../media/css/style-statements.css">
-  <script src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
-<section class="level1" id="обратный-порядок">
+<section id="обратный-порядок" class="level1">
 <h1>Обратный порядок</h1>
 <p>Выведите элементы данного массива в обратном порядке.</p>
-<section class="level2" id="формат-входных-данных">
+<section id="формат-входных-данных" class="level2">
 <h2>Формат входных данных</h2>
-<p>В первой строке содержится целое число \(n\) (\(1 \leqslant n \leqslant 10\,000\)). Во второй строке записаны элементы массива — целые числа \(a_1, a_2, \ldots , a_n\) (\(-10^9 \leqslant a_i \leqslant 10^9\)).</p>
+<p>В первой строке содержится целое число <span class="math">\(n\)</span> (<span class="math">\(1 \leqslant n \leqslant 10\,000\)</span>). Во второй строке записаны элементы массива — целые числа <span class="math">\(a_1, a_2, \ldots , a_n\)</span> (<span class="math">\(-10^9 \leqslant a_i \leqslant 10^9\)</span>).</p>
 </section>
-<section class="level2" id="формат-результата">
+<section id="формат-результата" class="level2">
 <h2>Формат результата</h2>
 <p>Выведите массив в обратном порядке.</p>
 </section>
-<section class="level2" id="примеры">
+<section id="примеры" class="level2">
 <h2>Примеры</h2>
 <table>
 <col style="width: 22%" /><col style="width: 22%" /><thead>
@@ -37,29 +36,29 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">4<br>2 0 1 1</td>
+<td style="text-align: left;">4<br />2 0 1 1</td>
 <td style="text-align: left;">1 1 0 2</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">5<br>0 1 0 2 0</td>
+<td style="text-align: left;">5<br />0 1 0 2 0</td>
 <td style="text-align: left;">0 2 0 1 0</td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section class="level1" id="минимальный---вперёд">
+<section id="минимальный---вперёд" class="level1">
 <h1>Минимальный - вперёд!</h1>
 <p>Напишите программу, которая читает массив, находит минимальный элемент и ставит его на первое место. Остальные элементы при этом могут поменяться местами в произвольным порядке.</p>
-<section class="level2" id="формат-входных-данных-1">
+<section id="формат-входных-данных-1" class="level2">
 <h2>Формат входных данных</h2>
-<p>В первой строке содержится целое число \(n\) (\(1 \leqslant n \leqslant 10\,000\)). Во второй строке записаны элементы массивы — целые числа \(a_1, a_2, \ldots , a_n\) (\(-10^9 \leqslant a_i \leqslant 10^9\)).</p>
+<p>В первой строке содержится целое число <span class="math">\(n\)</span> (<span class="math">\(1 \leqslant n \leqslant 10\,000\)</span>). Во второй строке записаны элементы массивы — целые числа <span class="math">\(a_1, a_2, \ldots , a_n\)</span> (<span class="math">\(-10^9 \leqslant a_i \leqslant 10^9\)</span>).</p>
 </section>
-<section class="level2" id="формат-результата-1">
+<section id="формат-результата-1" class="level2">
 <h2>Формат результата</h2>
 <p>Выведите получившийся массив. Если существует несколько вариантов, то выведите любой.</p>
 </section>
-<section class="level2" id="примеры-1">
+<section id="примеры-1" class="level2">
 <h2>Примеры</h2>
 <table>
 <col style="width: 22%" /><col style="width: 22%" /><thead>
@@ -70,31 +69,31 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">4<br>2 0 1 4</td>
+<td style="text-align: left;">4<br />2 0 1 4</td>
 <td style="text-align: left;">0 4 1 2</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">5<br>10 1 0 2 0</td>
+<td style="text-align: left;">5<br />10 1 0 2 0</td>
 <td style="text-align: left;">0 1 10 2 0</td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section class="level1" id="количество-инверсий-в-перестановке">
+<section id="количество-инверсий-в-перестановке" class="level1">
 <h1>Количество инверсий в перестановке</h1>
-<p>Пусть \(a_1, a_2, \ldots, a_n\) — перестановка натуральных чисел от 1 до \(n\). Так, если \(n=3\), то существует 6 перестановок. Это \((1,2,3)\), \((1,3,2)\), \((2,1,3)\), \((2,3,1)\), \((3,1,2)\) и \((3,2,1)\). Примерами перестановок для \(n=6\) являются последовательности \((1,2,3,4,5,6)\), \((4,6,5,1,3,2)\) и \((2,1,6,5,4,3)\).</p>
-<p><em>Инверсией</em> перестановки называют пару элементов таких, что больший из них расположен левее меньшего. Например, в перестановке \((3,1,4,2)\) три инверсии. Это пары \((3,1)\), \((3,2)\) и \((4,2)\). Каждая инверсия — это пара элементов <q>нарушающих порядок</q>; следовательно единственная перестановка, не содержащая инверсий, это перестановка \((1,2, \ldots , n)\).</p>
+<p>Пусть <span class="math">\(a_1, a_2, \ldots, a_n\)</span> — перестановка натуральных чисел от 1 до <span class="math">\(n\)</span>. Так, если <span class="math">\(n=3\)</span>, то существует 6 перестановок. Это <span class="math">\((1,2,3)\)</span>, <span class="math">\((1,3,2)\)</span>, <span class="math">\((2,1,3)\)</span>, <span class="math">\((2,3,1)\)</span>, <span class="math">\((3,1,2)\)</span> и <span class="math">\((3,2,1)\)</span>. Примерами перестановок для <span class="math">\(n=6\)</span> являются последовательности <span class="math">\((1,2,3,4,5,6)\)</span>, <span class="math">\((4,6,5,1,3,2)\)</span> и <span class="math">\((2,1,6,5,4,3)\)</span>.</p>
+<p><em>Инверсией</em> перестановки называют пару элементов таких, что больший из них расположен левее меньшего. Например, в перестановке <span class="math">\((3,1,4,2)\)</span> три инверсии. Это пары <span class="math">\((3,1)\)</span>, <span class="math">\((3,2)\)</span> и <span class="math">\((4,2)\)</span>. Каждая инверсия — это пара элементов “нарушающих порядок”; следовательно единственная перестановка, не содержащая инверсий, это перестановка <span class="math">\((1,2, \ldots , n)\)</span>.</p>
 <p>Напишите программу, которая находит количество инверсий в заданной перестановке.</p>
-<section class="level2" id="формат-входных-данных-2">
+<section id="формат-входных-данных-2" class="level2">
 <h2>Формат входных данных</h2>
-<p>В первой строке содержится целое число \(n\) (\(1 \leqslant n \leqslant 1\,000\)). Во второй строке записаны элементы перестановки — целые числа \(a_1, a_2, \ldots , a_n\) (\(1 \leqslant a_i \leqslant n\)). Гарантируется, что все \(a_i\) различны.</p>
+<p>В первой строке содержится целое число <span class="math">\(n\)</span> (<span class="math">\(1 \leqslant n \leqslant 1\,000\)</span>). Во второй строке записаны элементы перестановки — целые числа <span class="math">\(a_1, a_2, \ldots , a_n\)</span> (<span class="math">\(1 \leqslant a_i \leqslant n\)</span>). Гарантируется, что все <span class="math">\(a_i\)</span> различны.</p>
 </section>
-<section class="level2" id="формат-результата-2">
+<section id="формат-результата-2" class="level2">
 <h2>Формат результата</h2>
 <p>Выведите количество инверсий в перестановке.</p>
 </section>
-<section class="level2" id="примеры-2">
+<section id="примеры-2" class="level2">
 <h2>Примеры</h2>
 <table>
 <col style="width: 22%" /><col style="width: 22%" /><thead>
@@ -105,36 +104,36 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">4<br>4 3 2 1</td>
+<td style="text-align: left;">4<br />4 3 2 1</td>
 <td style="text-align: left;">6</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">5<br>1 2 3 4 5</td>
+<td style="text-align: left;">5<br />1 2 3 4 5</td>
 <td style="text-align: left;">0</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">5<br>2 3 5 4 1</td>
+<td style="text-align: left;">5<br />2 3 5 4 1</td>
 <td style="text-align: left;">5</td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section class="level1" id="массив-0-1-2">
+<section id="массив-0-1-2" class="level1">
 <h1>Массив 0, 1, 2</h1>
 <!-- Московские олимпиады, 80.3.4 -->
 
-<p>В массиве \(А = a_1, a_2, \ldots , a_n\) каждый элемент равен 0, 1 или 2. Требуется упорядочить элементы массива, то есть переставить их так, чтобы сначала располагались все нули, затем все единицы и, наконец, все двойки.</p>
+<p>В массиве <span class="math">\(А = a_1, a_2, \ldots , a_n\)</span> каждый элемент равен 0, 1 или 2. Требуется упорядочить элементы массива, то есть переставить их так, чтобы сначала располагались все нули, затем все единицы и, наконец, все двойки.</p>
 <p><em>Не используйте встроенные стандартные алгоритмы сортировки. Если вы знаете решение без массивов, то можете написать его.</em></p>
-<section class="level2" id="формат-входных-данных-3">
+<section id="формат-входных-данных-3" class="level2">
 <h2>Формат входных данных</h2>
-<p>В первой строке содержится целое число \(n\) (\(1 \leqslant n \leqslant 10\,000\)). Во второй строке записаны целые числа \(a_1, a_2, \ldots , a_n\) (\(0 \leqslant a_i \leqslant 2\)).</p>
+<p>В первой строке содержится целое число <span class="math">\(n\)</span> (<span class="math">\(1 \leqslant n \leqslant 10\,000\)</span>). Во второй строке записаны целые числа <span class="math">\(a_1, a_2, \ldots , a_n\)</span> (<span class="math">\(0 \leqslant a_i \leqslant 2\)</span>).</p>
 </section>
-<section class="level2" id="формат-результата-3">
+<section id="формат-результата-3" class="level2">
 <h2>Формат результата</h2>
 <p>Выведите упорядоченный массив.</p>
 </section>
-<section class="level2" id="примеры-3">
+<section id="примеры-3" class="level2">
 <h2>Примеры</h2>
 <table>
 <col style="width: 22%" /><col style="width: 22%" /><thead>
@@ -145,29 +144,29 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">4<br>2 0 1 1</td>
+<td style="text-align: left;">4<br />2 0 1 1</td>
 <td style="text-align: left;">0 1 1 2</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">5<br>0 1 0 2 0</td>
+<td style="text-align: left;">5<br />0 1 0 2 0</td>
 <td style="text-align: left;">0 0 0 1 2</td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section class="level1" id="различные-числа">
+<section id="различные-числа" class="level1">
 <h1>Различные числа</h1>
-<p>В массиве \(A = {a_1, a_2, \ldots , a_n}\) каждый элемент это целое число в диапазоне \([0..1000]\). Сколько различных чисел в данном массиве?</p>
-<section class="level2" id="формат-входных-данных-4">
+<p>В массиве <span class="math">\(A = {a_1, a_2, \ldots , a_n}\)</span> каждый элемент это целое число в диапазоне <span class="math">\([0..1000]\)</span>. Сколько различных чисел в данном массиве?</p>
+<section id="формат-входных-данных-4" class="level2">
 <h2>Формат входных данных</h2>
-<p>В первой строке содержится целое число \(n\) (\(1 \leqslant n \leqslant 100\,000\)). Во второй строке записаны целые числа \(a_1, a_2, \ldots , a_n\) (\(0 \leqslant a_i \leqslant 1\,000\)).</p>
+<p>В первой строке содержится целое число <span class="math">\(n\)</span> (<span class="math">\(1 \leqslant n \leqslant 100\,000\)</span>). Во второй строке записаны целые числа <span class="math">\(a_1, a_2, \ldots , a_n\)</span> (<span class="math">\(0 \leqslant a_i \leqslant 1\,000\)</span>).</p>
 </section>
-<section class="level2" id="формат-результата-4">
+<section id="формат-результата-4" class="level2">
 <h2>Формат результата</h2>
 <p>Выведите количество различных чисел.</p>
 </section>
-<section class="level2" id="примеры-4">
+<section id="примеры-4" class="level2">
 <h2>Примеры</h2>
 <table>
 <col style="width: 22%" /><col style="width: 22%" /><thead>
@@ -178,30 +177,30 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">4<br>25 0 10 1</td>
+<td style="text-align: left;">4<br />25 0 10 1</td>
 <td style="text-align: left;">4</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">5<br>0 11 0 2 0</td>
+<td style="text-align: left;">5<br />0 11 0 2 0</td>
 <td style="text-align: left;">3</td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section class="level1" id="массив--1000--999-1000">
+<section id="массив--1000--999-1000" class="level1">
 <h1>Массив -1000, -999, …, 1000</h1>
-<p>В массиве \(A = {a_1, a_2, \ldots , a_n}\) каждый элемент это целое число в диапазоне \([-1000..1000]\). Требуется упорядочить элементы массива в порядке неубывания.</p>
+<p>В массиве <span class="math">\(A = {a_1, a_2, \ldots , a_n}\)</span> каждый элемент это целое число в диапазоне <span class="math">\([-1000..1000]\)</span>. Требуется упорядочить элементы массива в порядке неубывания.</p>
 <p><em>Не используйте встроенные стандартные алгоритмы сортировки.</em></p>
-<section class="level2" id="формат-входных-данных-5">
+<section id="формат-входных-данных-5" class="level2">
 <h2>Формат входных данных</h2>
-<p>В первой строке содержится целое число \(n\) (\(1 \leqslant n \leqslant 100\,000\)). Во второй строке записаны целые числа \(a_1, a_2, \ldots , a_n\) (\(-1\,000 \leqslant a_i \leqslant 1\,000\)).</p>
+<p>В первой строке содержится целое число <span class="math">\(n\)</span> (<span class="math">\(1 \leqslant n \leqslant 100\,000\)</span>). Во второй строке записаны целые числа <span class="math">\(a_1, a_2, \ldots , a_n\)</span> (<span class="math">\(-1000 \leqslant a_i \leqslant 1000\)</span>).</p>
 </section>
-<section class="level2" id="формат-результата-5">
+<section id="формат-результата-5" class="level2">
 <h2>Формат результата</h2>
 <p>Выведите упорядоченный массив.</p>
 </section>
-<section class="level2" id="примеры-5">
+<section id="примеры-5" class="level2">
 <h2>Примеры</h2>
 <table>
 <col style="width: 22%" /><col style="width: 22%" /><thead>
@@ -212,31 +211,31 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">4<br>25 0 -10 1</td>
+<td style="text-align: left;">4<br />25 0 -10 1</td>
 <td style="text-align: left;">-10 0 1 25</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">5<br>0 11 0 2 0</td>
+<td style="text-align: left;">5<br />0 11 0 2 0</td>
 <td style="text-align: left;">0 0 0 2 11</td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section class="level1" id="m1">
+<section id="m1" class="level1">
 <h1>M+1</h1>
 <!-- 80.3.2 -->
 
-<p>Целое неотрицательное число \(M\) задано массивом своих цифр. Выведите цифры числа \(M + 1\).</p>
-<section class="level2" id="формат-входных-данных-6">
+<p>Целое неотрицательное число <span class="math">\(M\)</span> задано массивом своих цифр. Выведите цифры числа <span class="math">\(M + 1\)</span>.</p>
+<section id="формат-входных-данных-6" class="level2">
 <h2>Формат входных данных</h2>
-<p>В первой строке содержится количество цифр \(n\) (\(1 \leqslant n \leqslant 10\,000\)). Во второй строке записаны цифры числа, <strong>разделённые пробелом</strong>. Каждая цифра это целое число в диапазоне от нуля до девяти.</p>
+<p>В первой строке содержится количество цифр <span class="math">\(n\)</span> (<span class="math">\(1 \leqslant n \leqslant 10\,000\)</span>). Во второй строке записаны цифры числа, <strong>разделённые пробелом</strong>. Каждая цифра это целое число в диапазоне от нуля до девяти.</p>
 </section>
-<section class="level2" id="формат-результата-6">
+<section id="формат-результата-6" class="level2">
 <h2>Формат результата</h2>
 <p>Выведите цифры следующего числа (<strong>без пробелов</strong>)</p>
 </section>
-<section class="level2" id="примеры-6">
+<section id="примеры-6" class="level2">
 <h2>Примеры</h2>
 <table>
 <col style="width: 22%" /><col style="width: 22%" /><thead>
@@ -247,29 +246,29 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">4<br>3 0 1 9</td>
+<td style="text-align: left;">4<br />3 0 1 9</td>
 <td style="text-align: left;">3020</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">5<br>9 9 9 9 9</td>
+<td style="text-align: left;">5<br />9 9 9 9 9</td>
 <td style="text-align: left;">100000</td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section class="level1" id="проверка-на-пересечение">
+<section id="проверка-на-пересечение" class="level1">
 <h1>Проверка на пересечение</h1>
-<p>На плоскости расположено \(n\) окружностей. Необходимо проверить, есть ли среди них две, которые имеют хотя бы одну общую точку.</p>
-<section class="level2" id="формат-входных-данных-7">
+<p>На плоскости расположено <span class="math">\(n\)</span> окружностей. Необходимо проверить, есть ли среди них две, которые имеют хотя бы одну общую точку.</p>
+<section id="формат-входных-данных-7" class="level2">
 <h2>Формат входных данных</h2>
-<p>В первой строке содержится количество окружностей \(n\) (\(1 \leqslant n \leqslant 1\,000\)). В последующих \(n\) строках указаны окружности. Каждая задаётся тремя числами \(x_i, y_i, r_i\) (\(-1\,000 \leqslant x_i, y_i \leqslant 1\,000\); \(1 \leqslant r_i \leqslant 1\,000\)) — координаты центра и радиус.</p>
+<p>В первой строке содержится количество окружностей <span class="math">\(n\)</span> (<span class="math">\(1 \leqslant n \leqslant 1000\)</span>). В последующих <span class="math">\(n\)</span> строках указаны окружности. Каждая задаётся тремя числами <span class="math">\(x_i, y_i, r_i\)</span> (<span class="math">\(-1000 \leqslant x_i, y_i \leqslant 1000\)</span>; <span class="math">\(1 \leqslant r_i \leqslant 1000\)</span>) — координаты центра и радиус.</p>
 </section>
-<section class="level2" id="формат-результата-7">
+<section id="формат-результата-7" class="level2">
 <h2>Формат результата</h2>
 <p>Выведите <code>YES</code>, если среди указанных окружностей есть две, которые имеют хотя бы одну общую точку. Выведите <code>NO</code> в противном случае.</p>
 </section>
-<section class="level2" id="примеры-7">
+<section id="примеры-7" class="level2">
 <h2>Примеры</h2>
 <table>
 <col style="width: 22%" /><col style="width: 22%" /><thead>
@@ -280,30 +279,30 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">1<br>0 0 20</td>
+<td style="text-align: left;">1<br />0 0 20</td>
 <td style="text-align: left;">NO</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">2<br>0 0 20<br>30 0 10</td>
+<td style="text-align: left;">2<br />0 0 20<br />30 0 10</td>
 <td style="text-align: left;">YES</td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section class="level1" id="последовательность">
+<section id="последовательность" class="level1">
 <h1>Последовательность</h1>
-<p>Дана последовательность натуральных чисел \(1,2,3 \ldots n\) (\(1 \leqslant n \leqslant 1000\)). Необходимо сначала расположить в обратном порядке часть этой последовательности от элемента с номером \(a\) до элемента с номером \(b\), а затем от элемента с номером \(c\) до элемента с номером \(d\).</p>
-<p>Например, если \(n=9\), \(a=3\), \(b=6\), \(c=5\) и \(d=8\), то после первого шага последовательность \(1,2,3,4,5,6,7,8,9\) преобразуется в \(1,2,6,5,4,3,7,8,9\). А затем она преобразуется в \(1,2,6,5,8,7,3,4,9\).</p>
-<section class="level2" id="формат-входных-данных-8">
+<p>Дана последовательность натуральных чисел <span class="math">\(1,2,3 \ldots n\)</span> (<span class="math">\(1 \leqslant n \leqslant 1000\)</span>). Необходимо сначала расположить в обратном порядке часть этой последовательности от элемента с номером <span class="math">\(a\)</span> до элемента с номером <span class="math">\(b\)</span>, а затем от элемента с номером <span class="math">\(c\)</span> до элемента с номером <span class="math">\(d\)</span>.</p>
+<p>Например, если <span class="math">\(n=9\)</span>, <span class="math">\(a=3\)</span>, <span class="math">\(b=6\)</span>, <span class="math">\(c=5\)</span> и <span class="math">\(d=8\)</span>, то после первого шага последовательность <span class="math">\(1,2,3,4,5,6,7,8,9\)</span> преобразуется в <span class="math">\(1,2,6,5,4,3,7,8,9\)</span>. А затем она преобразуется в <span class="math">\(1,2,6,5,8,7,3,4,9\)</span>.</p>
+<section id="формат-входных-данных-8" class="level2">
 <h2>Формат входных данных</h2>
-<p>Даны числа \(n\), \(a\), \(b\), \(c\), \(d\) (\(a \leqslant b; c \leqslant d; 1 \leqslant a, b, c, d \leqslant n\)).</p>
+<p>Даны числа <span class="math">\(n\)</span>, <span class="math">\(a\)</span>, <span class="math">\(b\)</span>, <span class="math">\(c\)</span>, <span class="math">\(d\)</span> (<span class="math">\(a \leqslant b; c \leqslant d; 1 \leqslant a, b, c, d \leqslant n\)</span>).</p>
 </section>
-<section class="level2" id="формат-результата-8">
+<section id="формат-результата-8" class="level2">
 <h2>Формат результата</h2>
 <p>Требуется вывести полученную последовательность.</p>
 </section>
-<section class="level2" id="примеры-8">
+<section id="примеры-8" class="level2">
 <h2>Примеры</h2>
 <table>
 <col style="width: 22%" /><col style="width: 22%" /><thead>
@@ -325,21 +324,21 @@
 </table>
 </section>
 </section>
-<section class="level1" id="чемпионат-по-стрельбе-региональный-этап-рои-1011">
+<section id="чемпионат-по-стрельбе-региональный-этап-рои-1011" class="level1">
 <h1>Чемпионат по стрельбе (региональный этап РОИ 10/11)</h1>
 <p>Победитель школьного этапа олимпиады по информатике нашел дома в старых бумагах результаты чемпионата страны по стрельбе из лука, в котором участвовал его папа. К сожалению, листок с результатами сильно пострадал от времени, и разобрать фамилии участников было невозможно. Остались только набранные каждым участником очки, причем расположились они в том порядке, в котором участники чемпионата выполняли стрельбу.</p>
 <p>Расспросив папу, школьник выяснил, что количество очков, которое набрал папа, заканчивается на 5, один из победителей чемпионата стрелял раньше, а папин друг, который стрелял сразу после папы, набрал меньше очков. Теперь он заинтересовался, какое самое высокое место мог занять его папа на том чемпионате.</p>
-<p>Будем считать, что участник соревнования занял \(k\)-е место, если ровно \(k − 1\) участников чемпионата набрали строго больше очков, чем он. При этом победителями считались все участники чемпионата, занявшие первое место.</p>
+<p>Будем считать, что участник соревнования занял <span class="math">\(k\)</span>-е место, если ровно <span class="math">\(k-1\)</span> участников чемпионата набрали строго больше очков, чем он. При этом победителями считались все участники чемпионата, занявшие первое место.</p>
 <p>Требуется написать программу, которая по заданным результатам чемпионата определяет, какое самое высокое место на чемпионате мог занять папа победителя школьного этапа олимпиады по информатике.</p>
-<section class="level2" id="формат-входных-данных-9">
+<section id="формат-входных-данных-9" class="level2">
 <h2>Формат входных данных</h2>
-<p>Первая строка входного файла содержит целое число \(n\) — количество участников чемпионата страны по стрельбе (\(3 \leqslant n \leqslant 10^5\)). Вторая строка входного файла содержит \(n\) положительных целых чисел, каждое из которых не превышает 1000, — очки участников чемпионата, приведенные в том порядке, в котором они выполняли стрельбу.</p>
+<p>Первая строка входного файла содержит целое число <span class="math">\(n\)</span> — количество участников чемпионата страны по стрельбе (<span class="math">\(3 \leqslant n  \leqslant 10^5\)</span>). Вторая строка входного файла содержит <span class="math">\(n\)</span> положительных целых чисел, каждое из которых не превышает 1000, — очки участников чемпионата, приведенные в том порядке, в котором они выполняли стрельбу.</p>
 </section>
-<section class="level2" id="формат-результата-9">
+<section id="формат-результата-9" class="level2">
 <h2>Формат результата</h2>
 <p>В выходном файле должно содержаться одно целое число — самое высокое место, которое мог занять папа школьника. Если не существует ни одного участника чемпионата, который удовлетворяет, описанным выше условиям, выведите в выходной файл число 0.</p>
 </section>
-<section class="level2" id="примеры-9">
+<section id="примеры-9" class="level2">
 <h2>Примеры</h2>
 <table>
 <col style="width: 26%" /><col style="width: 19%" /><thead>
@@ -350,15 +349,15 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">7<br>10 20 15 10 30 5 1</td>
+<td style="text-align: left;">7<br />10 20 15 10 30 5 1</td>
 <td style="text-align: left;">6</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">3<br>15 15 10</td>
+<td style="text-align: left;">3<br />15 15 10</td>
 <td style="text-align: left;">1</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">3<br>10 15 20</td>
+<td style="text-align: left;">3<br />10 15 20</td>
 <td style="text-align: left;">0</td>
 </tr>
 </tbody>
