@@ -1,0 +1,62 @@
+10
+tmp_735790167 X W R
+tmp_158011759 X
+tmp_139815168 W X
+tmp_463405849 R W X
+tmp_157529008 X R W
+tmp_799669388 X W R
+tmp_522681943 R W X
+tmp_461518149 W
+tmp_880085661 X R W
+tmp_803600720 X
+50
+read tmp_139815168
+write tmp_139815168
+write tmp_522681943
+write tmp_158011759
+write tmp_139815168
+read tmp_158011759
+write tmp_735790167
+write tmp_803600720
+write tmp_461518149
+execute tmp_735790167
+read tmp_880085661
+execute tmp_522681943
+read tmp_157529008
+execute tmp_880085661
+execute tmp_139815168
+execute tmp_463405849
+execute tmp_158011759
+execute tmp_522681943
+execute tmp_139815168
+write tmp_799669388
+write tmp_463405849
+execute tmp_463405849
+read tmp_158011759
+execute tmp_158011759
+read tmp_735790167
+write tmp_799669388
+write tmp_735790167
+write tmp_463405849
+read tmp_735790167
+execute tmp_158011759
+read tmp_139815168
+write tmp_735790167
+write tmp_463405849
+execute tmp_735790167
+write tmp_157529008
+execute tmp_799669388
+write tmp_522681943
+read tmp_735790167
+write tmp_803600720
+execute tmp_139815168
+execute tmp_880085661
+read tmp_799669388
+write tmp_139815168
+read tmp_139815168
+write tmp_735790167
+write tmp_735790167
+execute tmp_799669388
+read tmp_461518149
+read tmp_157529008
+write tmp_463405849
