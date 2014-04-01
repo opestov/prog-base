@@ -10,5 +10,4 @@ pandoc -S -s -t html5 --section-divs ^
   06\statement\rus.md ^
   07\statement\rus.md ^
   08\statement\rus.md ^
-  09\statement\rus.md ^
-  10\statement\rus.md
+  09\statement\rus.md

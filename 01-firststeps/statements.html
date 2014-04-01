@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="../media/css/normalize.css">
+  <link rel="stylesheet" href="../media/css/style-statements.css">
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<section id="hello-world" class="level1">
+<h1>Hello, world!</h1>
+<p>Напишите программу, которая выводит строку <code>Hello, world!</code> (знаки препинания и регистр букв учитываются).</p>
+</section>
+<section id="умножение-на-два" class="level1">
+<h1>Умножение на два</h1>
+<p>Напишите программу, которая читает число, умножает его на два и выводит результат.</p>
+<section id="формат-входных-данных" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит целое число <span class="math">\(n\)</span>. Гарантируется, что число <span class="math">\(n\)</span> — двузначное и положительное.</p>
+</section>
+<section id="формат-результата" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите ответ в следующем формате (в данном случае было введено число 35):</p>
+<blockquote>
+<p>35 * 2 = 70</p>
+</blockquote>
+</section>
+<section id="примеры" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">35</td>
+<td style="text-align: left;">35 * 2 = 70</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">91</td>
+<td style="text-align: left;">91 * 2 = 182</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="ab" class="level1">
+<h1>A+B</h1>
+<p>Напишите программу, которая читает два числа, складывает их и выводит сумму.</p>
+<section id="формат-входных-данных-1" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит два целых числа <span class="math">\(a\)</span> и <span class="math">\(b\)</span>, разделённые одним пробелом. Гарантируется, что <span class="math">\(1 \leqslant a, b \leqslant 1000\)</span>, т.е. оба числа положительные и не превосходят 1000.</p>
+</section>
+<section id="формат-результата-1" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите ответ в следующем формате (в данном случае <span class="math">\(a=239\)</span>, <span class="math">\(b=35\)</span>):</p>
+<blockquote>
+<p>239 + 35 = 274</p>
+</blockquote>
+</section>
+<section id="примеры-1" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">239 35</td>
+<td style="text-align: left;">239 + 35 = 274</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1 91</td>
+<td style="text-align: left;">1 + 91 = 92</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="последняя-цифра" class="level1">
+<h1>Последняя цифра</h1>
+<p>Дано натуральное число. Найдите его последнюю цифру.</p>
+<section id="формат-входных-данных-2" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит целое число <span class="math">\(a\)</span> (<span class="math">\(1 \leqslant a \leqslant 10^6\)</span>).</p>
+</section>
+<section id="формат-результата-2" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите последнюю цифру числа.</p>
+</section>
+<section id="примеры-2" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">25</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">239017</td>
+<td style="text-align: left;">7</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="букет" class="level1">
+<h1>Букет</h1>
+<p>Вы хотите сделать подарок и купить букет из роз. Всего у вас <span class="math">\(n\)</span> рублей. Одна роза стоит <span class="math">\(k\)</span> рублей. Сколько роз вы сможете купить?</p>
+<section id="формат-входных-данных-3" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит два целых числа <span class="math">\(n\)</span> и <span class="math">\(k\)</span> (<span class="math">\(1 \leqslant n, k \leqslant 10^6\)</span>).</p>
+</section>
+<section id="формат-результата-3" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите одно число — ответ на задачу.</p>
+</section>
+<section id="примеры-3" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1000000 1</td>
+<td style="text-align: left;">1000000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">600 80</td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">100 200</td>
+<td style="text-align: left;">0</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="число-десятков" class="level1">
+<h1>Число десятков</h1>
+<p>Дано натуральное число. Найдите число десятков в его десятичной записи (то есть вторую справа цифру).</p>
+<section id="формат-входных-данных-4" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит натуральное число <span class="math">\(n\)</span> (<span class="math">\(10 \leqslant n \leqslant 10^6\)</span>).</p>
+</section>
+<section id="формат-результата-4" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите вторую справа цифру числа.</p>
+</section>
+<section id="примеры-4" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1000000</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">683</td>
+<td style="text-align: left;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">239</td>
+<td style="text-align: left;">3</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="сумма-цифр" class="level1">
+<h1>Сумма цифр</h1>
+<p>Дано трёхзначное число. Найдите сумму его цифр.</p>
+<section id="формат-входных-данных-5" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит число <span class="math">\(n\)</span> (<span class="math">\(100 \leqslant n \leqslant 999\)</span>).</p>
+</section>
+<section id="формат-результата-5" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите сумму цифр числа.</p>
+</section>
+<section id="примеры-5" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">683</td>
+<td style="text-align: left;">17</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">239</td>
+<td style="text-align: left;">14</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="следующее-чётное" class="level1">
+<h1>Следующее чётное</h1>
+<p>Дано целое число <span class="math">\(n\)</span>. Выведите следующее за ним чётное число.</p>
+<section id="формат-входных-данных-6" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит число <span class="math">\(n\)</span> (<span class="math">\(1 \leqslant n \leqslant 10^6\)</span>).</p>
+</section>
+<section id="формат-результата-6" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите следующее чётное.</p>
+</section>
+<section id="примеры-6" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">102</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">683</td>
+<td style="text-align: left;">684</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">239</td>
+<td style="text-align: left;">240</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="стоимость-покупки" class="level1">
+<h1>Стоимость покупки</h1>
+<p>Пирожок в столовой стоит <span class="math">\(a\)</span> рублей и <span class="math">\(b\)</span> копеек. Определите, сколько рублей и копеек нужно заплатить за <span class="math">\(n\)</span> пирожков.</p>
+<section id="формат-входных-данных-7" class="level2">
+<h2>Формат входных данных</h2>
+<p>Программа получает на вход три числа: <span class="math">\(a\)</span>, <span class="math">\(b\)</span> и <span class="math">\(n\)</span> (<span class="math">\(0 \leqslant a, b, n &lt; 100\)</span>).</p>
+</section>
+<section id="формат-результата-7" class="level2">
+<h2>Формат результата</h2>
+<p>Программа должна вывести два числа: стоимость покупки в рублях и копейках.</p>
+</section>
+<section id="примеры-7" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">10 15 2</td>
+<td style="text-align: left;">20 30</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2 50 4</td>
+<td style="text-align: left;">10 0</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="модуль-числа" class="level1">
+<h1>Модуль числа</h1>
+<p>Напишите программу, которая выводит модуль числа (функция <code>abs</code>).</p>
+<section id="формат-входных-данных-8" class="level2">
+<h2>Формат входных данных</h2>
+<p>Дано число <span class="math">\(n\)</span> (<span class="math">\(-10^6 \leqslant n \leqslant 10^6\)</span>).</p>
+</section>
+<section id="формат-результата-8" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите модуль числа.</p>
+</section>
+<section id="примеры-8" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">-10</td>
+<td style="text-align: left;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">54</td>
+<td style="text-align: left;">54</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</body>
+</html>
