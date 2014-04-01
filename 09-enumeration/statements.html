@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="../media/css/normalize.css">
+  <link rel="stylesheet" href="../media/css/style-statements.css">
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<section id="размещения-с-повторениями---1" class="level1">
+<h1>Размещения с повторениями - 1</h1>
+<p>Напишите программу, которая выводит все последовательности длины <span class="math">\(n\)</span>, содержащие числа от <span class="math">\(1\)</span> до <span class="math">\(k\)</span>.</p>
+<section id="формат-входных-данных" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит два целых числа <span class="math">\(n\)</span> (<span class="math">\(1 \le n \le 20\)</span>) и <span class="math">\(k\)</span> (<span class="math">\(1 \le k \le 20\)</span>). Гарантируется, что <span class="math">\(k^n\)</span> не превосходит <span class="math">\(10^5\)</span>.</p>
+</section>
+<section id="формат-результата" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите последовательности в лексикографическом порядке</p>
+</section>
+<section id="примеры" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">3 2<br /></td>
+<td style="text-align: left;">1 1 1<br />1 1 2<br />1 2 1<br />1 2 2<br />2 1 1<br />2 1 2<br />2 2 1<br />2 2 2</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="все-подмножества-множества" class="level1">
+<h1>Все подмножества множества</h1>
+<p>Группа состоит из <span class="math">\(n\)</span> студентов. Выведите все возможные способы, которыми эта группа может быть представлена на занятии. Учтите, что хотя бы один студент на занятии быть должен.</p>
+<section id="формат-входных-данных-1" class="level2">
+<h2>Формат входных данных</h2>
+<p>В первой строке содержится натуральное число <span class="math">\(n\)</span> (<span class="math">\(1 \le n \le 10\)</span>).</p>
+</section>
+<section id="формат-результата-1" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите искомые подмножества в произвольном порядке. В каждой строке выведите одно подмножество. Первое число в строке — количество студентов, остальные числа — номера студентов.</p>
+</section>
+<section id="примеры-1" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1 1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">1 1<br />1 2<br />2 1 2</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="перестановки---1" class="level1">
+<h1>Перестановки - 1</h1>
+<p>Напишите программу, которая выводит все перестановки чисел от 1 до <span class="math">\(n\)</span>.</p>
+<section id="формат-входных-данных-2" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит целое число <span class="math">\(n\)</span> (<span class="math">\(1 \le n \le 7\)</span>).</p>
+</section>
+<section id="формат-результата-2" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите перестановки в лексикографическом порядке.</p>
+</section>
+<section id="примеры-2" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">3<br /></td>
+<td style="text-align: left;">1 2 3<br />1 3 2<br />3 1 2<br />3 2 1<br />2 3 1<br />2 1 3</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="подмножества" class="level1">
+<h1>Подмножества</h1>
+<p>Напишите программу которая печатает все <span class="math">\(k\)</span> элементные подмножества множества <span class="math">\({1..n}\)</span>.</p>
+<section id="формат-входных-данных-3" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит два целых числа <span class="math">\(n\)</span> (<span class="math">\(1 \le n \le 16\)</span>) и <span class="math">\(k\)</span> (<span class="math">\(1 \le k \le 16\)</span>). Гарантируется, что <span class="math">\(k\)</span> не превосходит <span class="math">\(n\)</span>.</p>
+</section>
+<section id="формат-результата-3" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите подмножества в лексикографическом порядке</p>
+</section>
+<section id="примеры-3" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">4 2<br /></td>
+<td style="text-align: left;">1 2<br />1 3<br />1 4<br />2 3<br />2 4<br />3 4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4 4<br /></td>
+<td style="text-align: left;">1 2 3 4</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="previous-permutation" class="level1">
+<h1>Previous permutation</h1>
+<p>Напишите программу, которая выводит наибольшее число меньше данного, составленное из тех же цифр. У числа не может быть ведущих нулей.</p>
+<section id="формат-входных-данных-4" class="level2">
+<h2>Формат входных данных</h2>
+<p>В первой строке записано положительное число, состоящее из не более чем 100 цифр.</p>
+</section>
+<section id="формат-результата-4" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите предыдущее число или -1 если такого не существует.</p>
+</section>
+<section id="примеры-4" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">132</td>
+<td style="text-align: left;">123</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">22341</td>
+<td style="text-align: left;">22314</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">10345</td>
+<td style="text-align: left;">-1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">22100013</td>
+<td style="text-align: left;">22031100</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="разбиения---1" class="level1">
+<h1>Разбиения - 1</h1>
+<p>Напишите программу которая печатает все разбиения целого положительного числа <span class="math">\(n\)</span> на целые положительные слагаемые (разбиения, отличающиеся лишь порядком слагаемых, считаются за одно).</p>
+<section id="формат-входных-данных-5" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит целое число <span class="math">\(n\)</span> (<span class="math">\(1 \le n \le 20\)</span>).</p>
+</section>
+<section id="формат-результата-5" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите все разбиения в лексикографическом порядке. В разбиениях слагаемые должны идти в <strong>невозрастающем</strong> порядке.</p>
+</section>
+<section id="примеры-5" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">1+1+1+1<br />2+1+1<br />2+2<br />3+1<br />4</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="разбиения---2" class="level1">
+<h1>Разбиения - 2</h1>
+<p>Напишите программу которая печатает все разбиения целого положительного числа <span class="math">\(n\)</span> на целые положительные слагаемые (разбиения, отличающиеся лишь порядком слагаемых, считаются за одно).</p>
+<section id="формат-входных-данных-6" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит целое число <span class="math">\(n\)</span> (<span class="math">\(1 \le n \le 20\)</span>).</p>
+</section>
+<section id="формат-результата-6" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите все разбиения в лексикографическом порядке. В разбиениях слагаемые должны идти в <strong>неубывающем</strong> порядке.</p>
+</section>
+<section id="примеры-6" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">1+1+1+1<br />1+1+2<br />1+3<br />2+2<br />4</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="правильные-скобочные-последовательности" class="level1">
+<h1>Правильные скобочные последовательности</h1>
+<p>Напишите программу, которая выводит все правильные скобочные последовательности длины <span class="math">\(2n\)</span>.</p>
+<section id="формат-входных-данных-7" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит целое число <span class="math">\(n\)</span> (<span class="math">\(1 \le n \le 9\)</span>).</p>
+</section>
+<section id="формат-результата-7" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите правильные скобочные последовательности в лексикографическом порядке.</p>
+</section>
+<section id="примеры-7" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">((()))<br />(()())<br />(())()<br />()(())<br />()()()</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="размещения-с-повторениями---2" class="level1">
+<h1>Размещения с повторениями - 2</h1>
+<p>Напишите программу, которая выводит все последовательности длины <span class="math">\(n\)</span>, содержащие числа от <span class="math">\(1\)</span> до <span class="math">\(k\)</span> в таком порядке, чтобы каждая следующая последовательность отличалась от предыдущей в единственной цифре, причём не более, чем на 1.</p>
+<section id="формат-входных-данных-8" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит два целых числа <span class="math">\(n\)</span> (<span class="math">\(1 \le n \le 20\)</span>) и <span class="math">\(k\)</span> (<span class="math">\(1 \le k \le 20\)</span>). Гарантируется, что <span class="math">\(k^n\)</span> не превосходит <span class="math">\(10^5\)</span>.</p>
+</section>
+<section id="формат-результата-8" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите последовательности в требуемом порядке. Так как, существует несколько способов, удовлетворяющих условию, то выберите любой из них.</p>
+</section>
+<section id="примеры-8" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">3 2</td>
+<td style="text-align: left;">1 1 1<br />1 1 2<br />1 2 2<br />1 2 1<br />2 2 1<br />2 2 2<br />2 1 2<br />2 1 1</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="перестановки---2" class="level1">
+<h1>Перестановки - 2</h1>
+<p>Напишите программу, которая выводит все перестановки чисел от 1 до <span class="math">\(n\)</span>. Каждая следующая перестановка должна получаться из предыдущей с помощью транспозиции двух соседних чисел.</p>
+<section id="формат-входных-данных-9" class="level2">
+<h2>Формат входных данных</h2>
+<p>Первая строка содержит целое число <span class="math">\(n\)</span> (<span class="math">\(1 \le n \le 7\)</span>).</p>
+</section>
+<section id="формат-результата-9" class="level2">
+<h2>Формат результата</h2>
+<p>Выведите перестановки в требуемом порядке. Так как, существует несколько способов, удовлетворяющих условию, то выберите любой из них.</p>
+</section>
+<section id="примеры-9" class="level2">
+<h2>Примеры</h2>
+<table>
+<col style="width: 22%" /><col style="width: 22%" /><thead>
+<tr class="header">
+<th style="text-align: left;">входные данные</th>
+<th style="text-align: left;">результат</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">3<br /></td>
+<td style="text-align: left;">1 2 3<br />1 3 2<br />3 1 2<br />3 2 1<br />2 3 1<br />2 1 3</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</body>
+</html>
