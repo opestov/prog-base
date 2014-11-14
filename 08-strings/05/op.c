@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX 102
+#define MAX 257
 
 int main() {    
     int c[256];
